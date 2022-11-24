@@ -1,0 +1,61 @@
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+h1{
+    background-color: #FFFF66;
+    margin: 15px;
+    border-radius: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.Items{
+    display: flex;
+}
+.Passport{
+    width: 55px;
+    height: 55px;
+}
+.Suitcase{
+    width: 55px;
+    height: 55px;
+}
+.Tickets{
+    width: 55px;
+    height: 55px;
+    visibility: hidden;
+}
+
+img{
+    margin: 20px;
+    border-radius: 15%;
+}
+
+.Got-it{
+    background-color: #92fc92;
+    border-radius: 25%;
+    padding: 2%;
+    color: black;
+    margin: 15px;
+    transition: 0.2s;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+.Got-it:hover{
+    background-color: #FFC09C;
+    border-radius: 25%;
+    padding: 2%;
+    color: black;
+    font-weight: bold;
+    margin: 15px;
+    cursor: pointer;
+    visibility: hidden;
+}

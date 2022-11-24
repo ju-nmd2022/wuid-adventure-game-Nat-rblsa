@@ -1,0 +1,59 @@
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+h1{
+    background-color: #FFA351FF;
+    margin: 15px;
+    border-radius: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.Items{
+    display: flex;
+}
+.Passport{
+    width: 55px;
+    height: 55px;
+}
+.Suitcase{
+    width: 55px;
+    height: 55px;
+    visibility: hidden;
+}
+
+.Living-Room{
+    margin: 20px;
+    border-radius: 15%;
+    height: auto;
+    width: auto;
+}
+.Living-Room:hover{
+    cursor: pointer;
+}
+
+a{
+    background-color: #BF6B63;
+    border-radius: 25%;
+    padding: 2%;
+    color: white;
+    margin: 15px;
+    transition: 0.2s;
+    font-weight: bold;
+}
+a:hover{
+    background-color: #5B9EA6;
+    border-radius: 25%;
+    padding: 2%;
+    color: black;
+    font-weight: bold;
+    margin: 15px;
+    cursor: pointer;
+}

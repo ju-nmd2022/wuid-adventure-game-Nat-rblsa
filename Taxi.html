@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fourth Screen</title>
+    <link rel="stylesheet" href="taxi-style.css">
+    <script src="taxi.js" defer></script>
+</head>
+<body onload="myFunction()">
+
+    <h1>Let's get a Taxi!</h1>
+
+    <div class="popup1" id="popup1">
+        <p>Sorry, I'm already taken</p>
+        <button type="button1" onclick="closePopup1()">OK, no problem! :)</button>
+    </div>
+
+    <div class="popup2" id="popup2">
+        <p>Sure, but I'll charge you €55 for it</p>
+        <button type="button2" onclick="closePopup2()">NO WAY JOSÉ!</button>
+    </div>
+
+    <div class="popup3" id="popup3">
+        <p>Yes I'll take you, but let's make it interesting... Let's flip a coin. If I get heads I'll charge you €22 if not then the trip is free. Agree?</p>
+        <button type="button3" onclick="closePopup3()">How odd... But sure, why not!</button>
+    </div>
+
+    <div class="Items">
+
+        <img class="Passport" src="Passport.jpg" alt="A drawing of a Passport"/>
+        <img class="Suitcase" src="Suitcase.jpg" alt="A drawing of a suitcase"/>
+    
+    </div>
+
+    <img src="Taxi.jpg" alt="A drawing of a Taxi Station"/>
+
+    <div class="Taxis">
+
+        <div class="Taxi1">
+
+            <img src="taxi.png" alt="A drawing of a taxi." onclick="openPopup1()">
+            <p style="font-weight: bold;">Take Taxi 1</p>
+
+        </div>
+
+        <div class="Taxi2">
+
+            <img src="taxi.png" alt="A drawing of a taxi." onclick="openPopup2()">
+            <p style="font-weight: bold;">Take Taxi 2</p>
+
+        </div>
+
+        <div class="Taxi3">
+
+            <img src="taxi.png" alt="A drawing of a taxi." onclick="openPopup3()">
+            <p style="font-weight: bold;">Take Taxi 3</p>
+
+        </div>
+    
+    </div>
+
+</body>
+</html>
+
+    
+
+
+
+    

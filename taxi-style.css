@@ -1,0 +1,174 @@
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+h1{
+    background-color: #FFA351FF;
+    margin: 15px;
+    border-radius: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.Items{
+    display: flex;
+}
+.Passport{
+    width: 55px;
+    height: 55px;
+}
+.Suitcase{
+    width: 55px;
+    height: 55px;
+}
+
+img{
+    margin: 20px;
+    border-radius: 15%;
+    height: auto;
+    width: auto;
+}
+
+.Taxis{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    position: relative;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    overflow: hidden;
+}
+.Taxi1 img{
+    height: 100px;
+    width: 150px;
+}
+.Taxi1 img:hover{
+    height: 100px;
+    width: 150px;
+    cursor: pointer;
+}
+.Taxi1{
+    align-items: center;
+    text-align: center;
+}
+.Taxi2 img{
+    height: 100px;
+    width: 150px;
+}
+.Taxi2 img:hover{
+    height: 100px;
+    width: 150px;
+    cursor: pointer;
+}
+.Taxi3 img{
+    height: 100px;
+    width: 150px;
+}
+.Taxi3 img:hover{
+    height: 100px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.popup1{
+    width: 400px;
+    background: #DEDEDE;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 30px 30px 30px;
+    color: black;
+    display: none;
+    transition: transform 0.4s,
+}
+.open-popup1{
+    display: inline;
+    transform: translate(-50%,-50%) scale(1);
+}
+.popup1 p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.popup1 button{
+    width: 100%;
+    padding: 10px 0;
+    background: green;
+    Color: black;
+    font-size: 18px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.popup2{
+    width: 400px;
+    background: #DEDEDE;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 30px 30px 30px;
+    color: black;
+    display: none;
+    transition: transform 0.4s,
+}
+.open-popup2{
+    display: inline;
+    transform: translate(-50%,-50%) scale(1);
+}
+.popup2 p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.popup2 button{
+    width: 100%;
+    padding: 10px 0;
+    background: red;
+    Color: white;
+    font-size: 18px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.popup3{
+    width: 400px;
+    background: #DEDEDE;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 30px 30px 30px;
+    color: black;
+    display: none;
+    transition: transform 0.4s,
+}
+.open-popup3{
+    display: inline;
+    transform: translate(-50%,-50%) scale(1);
+}
+.popup3 p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.popup3 button{
+    width: 100%;
+    padding: 10px 0;
+    background: plum;
+    Color: white;
+    font-size: 18px;
+    border-radius: 15px;
+    cursor: pointer;
+}
